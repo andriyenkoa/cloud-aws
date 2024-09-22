@@ -1,0 +1,23 @@
+.link {
+	text-decoration: none;
+}
+
+.cart {
+	position: relative;
+	cursor: pointer;
+}
+
+.count {
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	font-size: 13px;
+	position: absolute;
+	bottom: -5px;
+	right: -10px;
+	z-index: 2;
+	padding: 1px;
+	background-color: red;
+	border-radius: 50%;
+}
